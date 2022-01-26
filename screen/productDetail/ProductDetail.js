@@ -6,7 +6,9 @@ import {
 
 const ProductDetail =()=>{
     return(
-        <Text>DETALLE DEL PRODUCTO</Text>
+        <View>
+            <Text>DETALLE DEL PRODUCTO</Text>
+        </View>
     )
 }
 

@@ -2,11 +2,15 @@ import React from 'react';
 import {
     View,
     Text,
+    Button,
 } from 'react-native';
 
-const Categories =()=>{
+const Categories =({navigation})=>{
     return(
-        <Text>CATEGORIAS</Text>
+        <View>
+            <Text>CATEGORIAS</Text>
+            <Button title='Ir a productos' onPress={()=> navigation.navigate('ListProduct')} />
+        </View>
     )
 }
 
