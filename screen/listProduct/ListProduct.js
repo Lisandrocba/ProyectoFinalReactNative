@@ -5,9 +5,10 @@ import {
     Button,
 } from 'react-native';
 
+
 const ListProduct =({navigation})=>{
     return(
-        <View>
+        <View >
         <Text>LISTA DE PRODUCTOS</Text>
         <Button title='Ir a productos' onPress={()=> navigation.navigate('ProductDitail')} />
     </View>
