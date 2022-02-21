@@ -1,11 +1,13 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+
+const {height} = Dimensions.get('window')
 
 const styles = StyleSheet.create({
     gridItem: {
         flex: 1,
         borderRadius: 5,
-        margin: 5,
-        height: 100,
+        margin: 1,
+        height: height/4,
     },
     container: {
         flex: 1,
@@ -18,10 +20,10 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-end',
         alignItems: 'flex-end',
         padding: 8,
-        height: 100,
+       
     },
     contenedorTexto: {
-        height: 100,
+        height: 150,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
